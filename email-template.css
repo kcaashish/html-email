@@ -56,7 +56,7 @@ table td {
 }
 
 .wrapper {
-  padding: 15px;
+  padding: 20px;
   box-sizing: border-box;
 }
 
@@ -87,10 +87,13 @@ a {
   font-size: 16px;
   padding-block: 2px;
   letter-spacing: 0.4px;
+  margin-bottom: 0.5rem;
+  text-align: justify;
 }
 
 .sub-heading {
   font-weight: 600;
+  font-size: 18px;
 }
 
 /* Button */

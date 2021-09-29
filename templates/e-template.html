@@ -82,7 +82,7 @@
                         <!-- START MAIN CONTENT AREA-->
                         <tr>
                             <td class="wrapper"
-                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 14px; vertical-align: top; padding: 15px; box-sizing: border-box;"
+                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 14px; vertical-align: top; padding: 20px; box-sizing: border-box;"
                                 valign="top">
                                 <table role="presentation" border="0" cellpadding="0" cellspacing="0"
                                     style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-width: 100%; width: 100%;"
@@ -91,50 +91,61 @@
                                         <td style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 14px; vertical-align: top;"
                                             valign="top">
                                             <p class="heading"
-                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; margin-bottom: 15px; color: #fff; font-size: 24px; font-weight: 600; letter-spacing: 0.1px; margin: 0; padding-block-end: 1.7rem;">
-                                                {{entry.Title}}
+                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; margin-bottom: 15px; color: #fff; font-size: 24px; font-weight: 600; letter-spacing: 0.1px; margin:0 0 1.5rem 0; padding-block-end: 1.75rem;">
+                                                {{entry['Title']}}
                                             </p>
                                             <p class="details"
-                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px;">
-                                                <span class="sub-heading" style="font-weight: 600;">Revenue:</span>
-                                                {{entry.Revenue}}
+                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                <span class="sub-heading"
+                                                    style="font-weight: 600; font-size: 18px;">Revenue:</span><br>
+                                                {{entry['Revenue']}}
                                             </p>
                                             <p class="details"
-                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px;">
-                                                <span class="sub-heading" style="font-weight: 600;">Ebitda:</span>
-                                                {{entry.Ebitda}}
+                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                <span class="sub-heading"
+                                                    style="font-weight: 600; font-size: 18px;">Ebitda:</span><br>
+                                                {{entry['Ebitda']}}
                                             </p>
                                             <p class="details"
-                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px;">
-                                                <span class="sub-heading" style="font-weight: 600;">Description:</span>
-                                                {{entry.Description}}
+                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                <span class="sub-heading"
+                                                    style="font-weight: 600; font-size: 18px;">Description:</span><br>
+                                                {{entry['Description']}}
                                             </p>
                                             <p class="details"
-                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px;">
-                                                <span class="sub-heading" style="font-weight: 600;">Geographic
-                                                    Location:</span>
-                                                {{entry.Title}}
+                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                <span class="sub-heading"
+                                                    style="font-weight: 600; font-size: 18px;">Geographic
+                                                    Location:</span><br>
+                                                {{entry['Geographic Location']}}
                                             </p>
                                             <p class="details"
-                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px;">
-                                                <span class="sub-heading" style="font-weight: 600;">Agent Name:</span>
-                                                {{entry.Title}}
+                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                <span class="sub-heading"
+                                                    style="font-weight: 600; font-size: 18px;">Agent
+                                                    Name:</span><br>
+                                                {{entry['Agent Name']}}
                                             </p>
                                             <p class="details"
-                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px;">
-                                                <span class="sub-heading" style="font-weight: 600;">Agent Email:</span>
-                                                {{entry.Title}}
+                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                <span class="sub-heading"
+                                                    style="font-weight: 600; font-size: 18px;">Agent
+                                                    Email:</span><br>
+                                                {{entry['Agent Email']}}
                                             </p>
                                             <p class="details"
-                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px;">
-                                                <span class="sub-heading" style="font-weight: 600;">Agent Cell
-                                                    Phone:</span>
-                                                {{entry.Title}}
+                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                <span class="sub-heading"
+                                                    style="font-weight: 600; font-size: 18px;">Agent Cell
+                                                    Phone:</span><br>
+                                                {{entry['Agent Cell Phone']}}
                                             </p>
                                             <p class="details"
-                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px;">
-                                                <span class="sub-heading" style="font-weight: 600;">Sale Price:</span>
-                                                {{entry.Title}}
+                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                <span class="sub-heading"
+                                                    style="font-weight: 600; font-size: 18px;">Sale
+                                                    Price:</span><br>
+                                                {{entry['Sale Price']}}
                                             </p>
 
                                             <!--BUTTON-->
@@ -181,7 +192,7 @@
                         <!-- START MAIN CONTENT AREA-->
                         <tr>
                             <td class="wrapper"
-                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 14px; vertical-align: top; padding: 15px; box-sizing: border-box;"
+                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 14px; vertical-align: top; padding: 20px; box-sizing: border-box;"
                                 valign="top">
                                 <table role="presentation" border="0" cellpadding="0" cellspacing="0"
                                     style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-width: 100%; width: 100%;"
@@ -190,50 +201,61 @@
                                         <td style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 14px; vertical-align: top;"
                                             valign="top">
                                             <p class="heading"
-                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; margin-bottom: 15px; color: #fff; font-size: 24px; font-weight: 600; letter-spacing: 0.1px; margin: 0; padding-block-end: 1.7rem;">
-                                                {{entry.Title}}
+                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; margin-bottom: 15px; color: #fff; font-size: 24px; font-weight: 600; letter-spacing: 0.1px; margin:0 0 1.5rem 0; padding-block-end: 1.75rem;">
+                                                {{entry['Title']}}
                                             </p>
                                             <p class="details"
-                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px;">
-                                                <span class="sub-heading" style="font-weight: 600;">Revenue:</span>
-                                                {{entry.Revenue}}
+                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                <span class="sub-heading"
+                                                    style="font-weight: 600; font-size: 18px;">Revenue:</span><br>
+                                                {{entry['Revenue']}}
                                             </p>
                                             <p class="details"
-                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px;">
-                                                <span class="sub-heading" style="font-weight: 600;">Ebitda:</span>
-                                                {{entry.Ebitda}}
+                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                <span class="sub-heading"
+                                                    style="font-weight: 600; font-size: 18px;">Ebitda:</span><br>
+                                                {{entry['Ebitda']}}
                                             </p>
                                             <p class="details"
-                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px;">
-                                                <span class="sub-heading" style="font-weight: 600;">Description:</span>
-                                                {{entry.Description}}
+                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                <span class="sub-heading"
+                                                    style="font-weight: 600; font-size: 18px;">Description:</span><br>
+                                                {{entry['Description']}}
                                             </p>
                                             <p class="details"
-                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px;">
-                                                <span class="sub-heading" style="font-weight: 600;">Geographic
-                                                    Location:</span>
-                                                {{entry.Title}}
+                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                <span class="sub-heading"
+                                                    style="font-weight: 600; font-size: 18px;">Geographic
+                                                    Location:</span><br>
+                                                {{entry['Geographic Location']}}
                                             </p>
                                             <p class="details"
-                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px;">
-                                                <span class="sub-heading" style="font-weight: 600;">Agent Name:</span>
-                                                {{entry.Title}}
+                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                <span class="sub-heading"
+                                                    style="font-weight: 600; font-size: 18px;">Agent
+                                                    Name:</span><br>
+                                                {{entry['Agent Name']}}
                                             </p>
                                             <p class="details"
-                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px;">
-                                                <span class="sub-heading" style="font-weight: 600;">Agent Email:</span>
-                                                {{entry.Title}}
+                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                <span class="sub-heading"
+                                                    style="font-weight: 600; font-size: 18px;">Agent
+                                                    Email:</span><br>
+                                                {{entry['Agent Email']}}
                                             </p>
                                             <p class="details"
-                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px;">
-                                                <span class="sub-heading" style="font-weight: 600;">Agent Cell
-                                                    Phone:</span>
-                                                {{entry.Title}}
+                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                <span class="sub-heading"
+                                                    style="font-weight: 600; font-size: 18px;">Agent Cell
+                                                    Phone:</span><br>
+                                                {{entry['Agent Cell Phone']}}
                                             </p>
                                             <p class="details"
-                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px;">
-                                                <span class="sub-heading" style="font-weight: 600;">Sale Price:</span>
-                                                {{entry.Title}}
+                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                <span class="sub-heading"
+                                                    style="font-weight: 600; font-size: 18px;">Sale
+                                                    Price:</span><br>
+                                                {{entry['Sale Price']}}
                                             </p>
 
                                             <!--BUTTON-->
