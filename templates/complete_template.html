@@ -94,26 +94,52 @@
                                                 style="font-family: Verdana, Geneva, Tahoma, sans-serif; margin-bottom: 15px; color: #fff; font-size: 24px; font-weight: 600; letter-spacing: 0.1px; margin:0 0 1.5rem 0; padding-block-end: 1.75rem;">
                                                 {{entry['Title']}}
                                             </p>
-
-                                            {% if entry['Revenue'] %}
                                             <p class="details"
                                                 style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
                                                 <span class="sub-heading"
                                                     style="font-weight: 600; font-size: 18px;">Revenue:</span><br>
                                                 {{entry['Revenue']}}
                                             </p>
-                                            {% endif %}
-
-                                            {% if entry['Ebitda'] %}
                                             <p class="details"
                                                 style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
                                                 <span class="sub-heading"
                                                     style="font-weight: 600; font-size: 18px;">Ebitda:</span><br>
                                                 {{entry['Ebitda']}}
                                             </p>
-                                            {% endif %}
-
-                                            {% if entry['Sale Price'] %}
+                                            <p class="details"
+                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                <span class="sub-heading"
+                                                    style="font-weight: 600; font-size: 18px;">Description:</span><br>
+                                                {{entry['Description']}}
+                                            </p>
+                                            <p class="details"
+                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                <span class="sub-heading"
+                                                    style="font-weight: 600; font-size: 18px;">Geographic
+                                                    Location:</span><br>
+                                                {{entry['Geographic Location']}}
+                                            </p>
+                                            <p class="details"
+                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                <span class="sub-heading"
+                                                    style="font-weight: 600; font-size: 18px;">Agent
+                                                    Name:</span><br>
+                                                {{entry['Agent Name']}}
+                                            </p>
+                                            <p class="details"
+                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                <span class="sub-heading"
+                                                    style="font-weight: 600; font-size: 18px;">Agent
+                                                    Email:</span><br>
+                                                {{entry['Agent Email']}}
+                                            </p>
+                                            <p class="details"
+                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                <span class="sub-heading"
+                                                    style="font-weight: 600; font-size: 18px;">Agent Cell
+                                                    Phone:</span><br>
+                                                {{entry['Agent Cell Phone']}}
+                                            </p>
                                             <p class="details"
                                                 style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
                                                 <span class="sub-heading"
@@ -121,7 +147,6 @@
                                                     Price:</span><br>
                                                 {{entry['Sale Price']}}
                                             </p>
-                                            {% endif %}
 
                                             <!--BUTTON-->
                                             <table role="presentation" border="0" cellpadding="0" cellspacing="0"
@@ -179,26 +204,52 @@
                                                 style="font-family: Verdana, Geneva, Tahoma, sans-serif; margin-bottom: 15px; color: #fff; font-size: 24px; font-weight: 600; letter-spacing: 0.1px; margin:0 0 1.5rem 0; padding-block-end: 1.75rem;">
                                                 {{entry['Title']}}
                                             </p>
-
-                                            {% if entry['Revenue'] %}
                                             <p class="details"
                                                 style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
                                                 <span class="sub-heading"
                                                     style="font-weight: 600; font-size: 18px;">Revenue:</span><br>
                                                 {{entry['Revenue']}}
                                             </p>
-                                            {% endif %}
-
-                                            {% if entry['Ebitda'] %}
                                             <p class="details"
                                                 style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
                                                 <span class="sub-heading"
                                                     style="font-weight: 600; font-size: 18px;">Ebitda:</span><br>
                                                 {{entry['Ebitda']}}
                                             </p>
-                                            {% endif %}
-
-                                            {% if entry['Sale Price'] %}
+                                            <p class="details"
+                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                <span class="sub-heading"
+                                                    style="font-weight: 600; font-size: 18px;">Description:</span><br>
+                                                {{entry['Description']}}
+                                            </p>
+                                            <p class="details"
+                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                <span class="sub-heading"
+                                                    style="font-weight: 600; font-size: 18px;">Geographic
+                                                    Location:</span><br>
+                                                {{entry['Geographic Location']}}
+                                            </p>
+                                            <p class="details"
+                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                <span class="sub-heading"
+                                                    style="font-weight: 600; font-size: 18px;">Agent
+                                                    Name:</span><br>
+                                                {{entry['Agent Name']}}
+                                            </p>
+                                            <p class="details"
+                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                <span class="sub-heading"
+                                                    style="font-weight: 600; font-size: 18px;">Agent
+                                                    Email:</span><br>
+                                                {{entry['Agent Email']}}
+                                            </p>
+                                            <p class="details"
+                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                <span class="sub-heading"
+                                                    style="font-weight: 600; font-size: 18px;">Agent Cell
+                                                    Phone:</span><br>
+                                                {{entry['Agent Cell Phone']}}
+                                            </p>
                                             <p class="details"
                                                 style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
                                                 <span class="sub-heading"
@@ -206,7 +257,6 @@
                                                     Price:</span><br>
                                                 {{entry['Sale Price']}}
                                             </p>
-                                            {% endif %}
 
                                             <!--BUTTON-->
                                             <table role="presentation" border="0" cellpadding="0" cellspacing="0"
