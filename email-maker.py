@@ -5,6 +5,7 @@ from jinja2 import Environment, FileSystemLoader
 
 def email_maker(path):
     data = pd.read_csv(path, sep=",")
+    data.dropna(how="all", inplace=True)
 
     # makes json file from csv
     with open("data.json", "w") as f:
