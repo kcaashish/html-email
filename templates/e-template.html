@@ -95,34 +95,48 @@
                                                 {{entry['Title']}}
                                             </p>
 
-                                            {% if entry['Revenue'] %}
-                                            <p class="details"
-                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
-                                                <span class="sub-heading"
-                                                    style="font-weight: 600; font-size: 18px;">Revenue:</span><br>
-                                                {{entry['Revenue']}}
-                                            </p>
-                                            {% endif %}
+                                            <table role="presentation" border="0" cellpadding="0" cellspacing="0"
+                                                style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-width: 100%; width: 100%;"
+                                                width="100%">
+                                                <tr>
+                                                    {% if entry['Revenue'] %}
+                                                    <td style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 14px; vertical-align: top; padding-right: 13px;"
+                                                        valign="top">
+                                                        <p class="details"
+                                                            style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                            <span class="sub-heading"
+                                                                style="font-weight: 600; font-size: 18px;">Revenue:</span><br>
+                                                            {{entry['Revenue']}}
+                                                        </p>
+                                                    </td>
+                                                    {% endif %}
 
-                                            {% if entry['Ebitda'] %}
-                                            <p class="details"
-                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
-                                                <span class="sub-heading"
-                                                    style="font-weight: 600; font-size: 18px;">Ebitda:</span><br>
-                                                {{entry['Ebitda']}}
-                                            </p>
-                                            {% endif %}
+                                                    {% if entry['Ebitda'] %}
+                                                    <td style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 14px; vertical-align: top; padding-right: 13px;"
+                                                        valign="top">
+                                                        <p class="details"
+                                                            style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                            <span class="sub-heading"
+                                                                style="font-weight: 600; font-size: 18px;">Ebitda:</span><br>
+                                                            {{entry['Ebitda']}}
+                                                        </p>
+                                                    </td>
+                                                    {% endif %}
 
-                                            {% if entry['Sale Price'] %}
-                                            <p class="details"
-                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
-                                                <span class="sub-heading"
-                                                    style="font-weight: 600; font-size: 18px;">Sale
-                                                    Price:</span><br>
-                                                {{entry['Sale Price']}}
-                                            </p>
-                                            {% endif %}
-
+                                                    {% if entry['Sale Price'] %}
+                                                    <td style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 14px; vertical-align: top;"
+                                                        valign="top">
+                                                        <p class="details"
+                                                            style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                            <span class="sub-heading"
+                                                                style="font-weight: 600; font-size: 18px;">Sale
+                                                                Price:</span><br>
+                                                            {{entry['Sale Price']}}
+                                                        </p>
+                                                    </td>
+                                                    {% endif %}
+                                                </tr>
+                                            </table>
                                             <!--BUTTON-->
                                             <table role="presentation" border="0" cellpadding="0" cellspacing="0"
                                                 class="btn btn-primary"
@@ -180,33 +194,50 @@
                                                 {{entry['Title']}}
                                             </p>
 
-                                            {% if entry['Revenue'] %}
-                                            <p class="details"
-                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
-                                                <span class="sub-heading"
-                                                    style="font-weight: 600; font-size: 18px;">Revenue:</span><br>
-                                                {{entry['Revenue']}}
-                                            </p>
-                                            {% endif %}
+                                            <table role="presentation" border="0" cellpadding="0" cellspacing="0"
+                                                style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-width: 100%; width: 100%;"
+                                                width="100%">
+                                                <tr>
 
-                                            {% if entry['Ebitda'] %}
-                                            <p class="details"
-                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
-                                                <span class="sub-heading"
-                                                    style="font-weight: 600; font-size: 18px;">Ebitda:</span><br>
-                                                {{entry['Ebitda']}}
-                                            </p>
-                                            {% endif %}
+                                                    {% if entry['Revenue'] %}
+                                                    <td style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 14px; vertical-align: top; padding-right: 13px;"
+                                                        valign="top">
+                                                        <p class="details"
+                                                            style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                            <span class="sub-heading"
+                                                                style="font-weight: 600; font-size: 18px;">Revenue:</span><br>
+                                                            {{entry['Revenue']}}
+                                                        </p>
+                                                    </td>
+                                                    {% endif %}
 
-                                            {% if entry['Sale Price'] %}
-                                            <p class="details"
-                                                style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
-                                                <span class="sub-heading"
-                                                    style="font-weight: 600; font-size: 18px;">Sale
-                                                    Price:</span><br>
-                                                {{entry['Sale Price']}}
-                                            </p>
-                                            {% endif %}
+                                                    {% if entry['Ebitda'] %}
+                                                    <td style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 14px; vertical-align: top; padding-right: 13px;"
+                                                        valign="top">
+                                                        <p class="details"
+                                                            style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                            <span class="sub-heading"
+                                                                style="font-weight: 600; font-size: 18px;">Ebitda:</span><br>
+                                                            {{entry['Ebitda']}}
+                                                        </p>
+                                                    </td>
+                                                    {% endif %}
+
+                                                    {% if entry['Sale Price'] %}
+                                                    <td style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 14px; vertical-align: top;"
+                                                        valign="top">
+                                                        <p class="details"
+                                                            style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; margin-bottom: 15px; color: #fff; margin: 0; font-size: 16px; padding-block: 2px; letter-spacing: 0.4px; margin-bottom: 0.5rem; text-align: justify;">
+                                                            <span class="sub-heading"
+                                                                style="font-weight: 600; font-size: 18px;">Sale
+                                                                Price:</span><br>
+                                                            {{entry['Sale Price']}}
+                                                        </p>
+                                                    </td>
+                                                    {% endif %}
+
+                                                </tr>
+                                            </table>
 
                                             <!--BUTTON-->
                                             <table role="presentation" border="0" cellpadding="0" cellspacing="0"
